@@ -1,0 +1,292 @@
+/*=====================================
+=            Color pallete            =
+=====================================*/
+
+
+/*
+77602B muted brown
+407774 light blue
+95B7B6 sky blue
+DDD3A2 off white
+194442 muted dark blue
+716D6D dark grey
+/*=====================================
+=            Fonts                    =
+=====================================*/
+
+/*
+font-family: 'Pacifico', cursive;
+*/
+
+
+
+/*==============================
+=       Main Contatiner       =
+==============================*/
+
+.main-container {
+    background-color: #194442;
+    overflow: auto;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 1.5em;
+}
+/*adjust the page content manually when content is low*/
+#low-content-adjuster {
+    height: 400px;
+}
+/*==============================
+=            Header            =
+==============================*/
+
+.header-container {
+    display: block;
+    background-image: url("../themes/long_beach_cityscape.jpg");
+    height: 150px;
+    border-width: 5px 5px 0 5px;
+    border-color: #194442;
+    border-style: solid;
+}
+
+.header-container h1{
+    font-family: 'Pacifico', cursive, san-serif;
+    color: #C7C006;
+    font-size: 1.8em;
+}
+/*==================================
+=            Navigation            =
+==================================*/
+
+.main-nav {
+    display: block;
+    background-color: #407774;
+    border-width: 0 5px 1px 5px;
+    border-style: solid;
+    height: 40px;
+    border-color: #194442
+}
+
+nav ul {
+    list-style: none;
+    margin: 2px 2px 2px 2px
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    margin: 2px 20px 0 20px;
+}
+
+nav ul li a {
+    color: #DDD3A2;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    opacity: .95;
+    font-size: 1.8em;
+}
+
+.active {
+    color: #77602B;
+    border-width: 0 0 6px 0;
+    border-style: double;
+}
+
+
+/*==================================
+=           Page Tite              =
+==================================*/
+
+.page-title-container {
+    display: block;
+}
+
+.page-title-container h1 {
+    font-family: 'Pacifico', cursive, san-serif;
+    font-size: 1.5em;
+    color: #77602B;
+    text-align: left;
+    float: left;
+    clear: both;
+}
+
+
+/*==================================
+=           carousel              =
+==================================*/
+
+#carousel-container {
+    margin-top: 10px;
+}
+
+.carousel-inner .item img {
+    margin: 0 auto;
+}
+
+.text-align-center {
+    position: relative;
+}
+
+#slider-caption {
+    border: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+    border-style: none;
+    font-size: 1em;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+/*=============================================
+=            image Section                =
+=============================================*/
+
+#image-section-alignment {
+    width: 100%;
+    margin: 0 0 0 500px;
+    float: left;
+    clear: right;
+}
+
+/*section img {
+    display: inline;
+    text-align: center;
+}*/
+
+/*=============================================
+=            Form Section                =
+=============================================*/
+
+
+#form-title {
+    font-size: 1.5em;
+}
+
+.contact-table {
+    float: left;
+}
+.labels {
+    text-align: right;
+}
+#contact-fullname {
+    width: 400px;
+    margin-bottom: 10px;
+}
+#contact-email {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#contact-message {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.text-box-align {
+    text-align: left;
+    clear: left;
+    color: #090808;
+}
+
+table.contact-table tr td {
+    color: #DDD3A2;
+}
+
+#submit {
+    color: #090808;
+    margin-bottom: 20px;
+}
+
+/*=============================================
+=             Thank You Section               =
+=============================================*/
+.thank-you-section {
+    position: center center;
+    float: left;
+    clear: both;
+}
+
+
+/*=============================================
+=             Article Section                =
+=============================================*/
+
+.section-container {
+    display: block;
+    background-color: #194442;
+    /*margin: 20px 0 0 0;*/
+    border-width: 0 5px 1px 5px;
+    border-style: solid;
+    border-color: #194442;
+    height: auto;
+    overflow: auto;
+}
+
+/*.section-container .article-left {
+    float: left;
+    display: inline;
+    border: 10px 10px 10px 10px;
+    margin: 20px 30px 20px 80px;
+    width: 40%;
+}
+
+.section-container .article-right {
+    float: left;
+    display: inline;
+    border: 10px 10px 10px 10px;
+    margin: 20px 5px 30px 5px;
+    width: 40%;
+}*/
+
+h1 {
+    color: #77602B;
+    text-align: center;
+}
+article p {
+    font-size: 1.2em;
+}
+
+p {
+    color: #77602B;
+    text-align: left;
+    text-indent: 30px;
+}
+.iframe-images{
+    margin: 0px 15px 10px 0px;
+    float: left;
+}
+
+.text-wrap-left {
+    float: left
+}
+
+.link-margin{
+    margin: 0px 30px;
+    font-size: 1.6em;
+}
+/*=============================================
+=                  Footer                    =
+=============================================*/
+
+.footer-container {
+    display: block;
+    background-color: #407774;
+    border-width: 10px 5px 5px 5px;
+    border-style: solid;
+    height: 70px;
+    border-color: #194442;
+    padding: 5px 0 0 0;
+    clear: both;
+}
+
+footer nav ul li a {
+    color: #DDD3A2;
+    text-decoration: none
+}
+
+footer nav ul li p {
+    color: #DDD3A2;
+    font-size: 1.8em;
+}
